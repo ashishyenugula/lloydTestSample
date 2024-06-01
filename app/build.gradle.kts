@@ -84,7 +84,16 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     ksp ("com.github.bumptech.glide:compiler:4.12.0")
 
-   // implementation("com.vanniktech:android-image-cropper:4.5.0")
+    // MockWebServer
+
+    testImplementation ("com.squareup.okhttp3:mockwebserver:4.9.1")
+
+
+    androidTestImplementation ("androidx.test.espresso:espresso-core:3.4.0")
+
+    androidTestImplementation ("androidx.test:runner:1.1.0")
+
+    androidTestImplementation ("androidx.test:rules:1.4.0")
 
 
 
